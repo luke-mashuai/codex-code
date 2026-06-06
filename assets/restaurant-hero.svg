@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Restaurant table with seasonal dishes</title>
+  <desc id="desc">A warm restaurant table scene with plated fish, vegetables, bowls, bread, cutlery, and pendant light glow.</desc>
+  <defs>
+    <radialGradient id="lamp" cx="72%" cy="10%" r="58%">
+      <stop offset="0" stop-color="#f8d991" stop-opacity=".95"/>
+      <stop offset=".42" stop-color="#c87c44" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#1f2622" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7b4a2d"/>
+      <stop offset=".45" stop-color="#4d3026"/>
+      <stop offset="1" stop-color="#241c19"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" x2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#d9d0bf"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#160f0c" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1100" fill="#18201b"/>
+  <rect width="1800" height="1100" fill="url(#lamp)"/>
+  <path d="M0 442 C310 380 456 474 720 424 C1000 371 1221 292 1800 380 L1800 1100 L0 1100 Z" fill="url(#table)"/>
+  <g opacity=".18" stroke="#e5b477" stroke-width="4">
+    <path d="M-40 650 C330 560 588 600 930 532 C1260 466 1478 460 1860 520"/>
+    <path d="M-30 795 C392 705 620 752 990 678 C1308 614 1492 626 1870 680"/>
+    <path d="M-20 950 C392 874 694 904 1056 836 C1380 775 1548 806 1870 835"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="1030" cy="690" rx="330" ry="190" fill="#1d1814" opacity=".34"/>
+    <ellipse cx="980" cy="650" rx="315" ry="170" fill="url(#plate)"/>
+    <ellipse cx="980" cy="650" rx="246" ry="126" fill="#f6efe2"/>
+    <path d="M760 640 C826 560 962 528 1098 558 C1190 578 1235 628 1212 684 C1188 742 1068 782 942 764 C832 748 742 704 760 640Z" fill="#cf693b"/>
+    <path d="M794 638 C856 586 960 565 1062 584 C1142 598 1184 630 1168 669 C1148 716 1046 742 944 730 C852 719 782 686 794 638Z" fill="#f2b05e"/>
+    <path d="M850 626 C950 594 1038 602 1142 660" fill="none" stroke="#7d3127" stroke-width="15" stroke-linecap="round" opacity=".55"/>
+    <g fill="#2e6b5d">
+      <ellipse cx="832" cy="726" rx="36" ry="16" transform="rotate(-18 832 726)"/>
+      <ellipse cx="1112" cy="592" rx="38" ry="15" transform="rotate(24 1112 592)"/>
+      <ellipse cx="1178" cy="704" rx="30" ry="13" transform="rotate(-28 1178 704)"/>
+    </g>
+    <g fill="#f8d991">
+      <circle cx="904" cy="596" r="9"/>
+      <circle cx="1012" cy="578" r="7"/>
+      <circle cx="1092" cy="704" r="8"/>
+      <circle cx="874" cy="708" r="7"/>
+    </g>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="470" cy="675" rx="185" ry="120" fill="#1d1814" opacity=".34"/>
+    <ellipse cx="455" cy="640" rx="175" ry="110" fill="#e6dfd1"/>
+    <ellipse cx="455" cy="640" rx="126" ry="72" fill="#fbf5e9"/>
+    <g fill="#9f2e28">
+      <circle cx="414" cy="612" r="34"/>
+      <circle cx="486" cy="626" r="36"/>
+      <circle cx="446" cy="675" r="30"/>
+    </g>
+    <path d="M388 662 C434 596 492 594 540 675" fill="none" stroke="#2e6b5d" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="1396" cy="750" rx="178" ry="110" fill="#1d1814" opacity=".38"/>
+    <ellipse cx="1380" cy="710" rx="160" ry="90" fill="#332422"/>
+    <ellipse cx="1380" cy="690" rx="132" ry="66" fill="#f0d1a6"/>
+    <path d="M1278 672 C1338 632 1426 628 1484 674 C1438 708 1328 716 1278 672Z" fill="#d7a05b"/>
+    <path d="M1298 698 C1368 726 1428 724 1470 694" fill="none" stroke="#7b4a2d" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g opacity=".9" filter="url(#softShadow)">
+    <rect x="260" y="820" width="290" height="34" rx="17" fill="#d7c8ae" transform="rotate(-18 260 820)"/>
+    <rect x="1220" y="420" width="350" height="30" rx="15" fill="#d7c8ae" transform="rotate(22 1220 420)"/>
+    <circle cx="1540" cy="512" r="56" fill="#f5ead6"/>
+    <circle cx="1540" cy="512" r="36" fill="#9e3f2d"/>
+  </g>
+  <g opacity=".74">
+    <circle cx="250" cy="260" r="78" fill="#d6a047"/>
+    <circle cx="250" cy="260" r="48" fill="#f7d895"/>
+    <rect x="241" y="0" width="18" height="224" fill="#3a302b"/>
+    <circle cx="1478" cy="178" r="58" fill="#d6a047"/>
+    <circle cx="1478" cy="178" r="34" fill="#f7d895"/>
+    <rect x="1470" y="0" width="16" height="128" fill="#3a302b"/>
+  </g>
+</svg>
