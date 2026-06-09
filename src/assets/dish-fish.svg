@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">桂花酒炭烤桂鱼</title>
+  <desc id="desc">A grilled fish dish on a ceramic plate with herbs and golden sauce.</desc>
+  <defs>
+    <radialGradient id="bg" cx="68%" cy="18%" r="80%">
+      <stop offset="0" stop-color="#f4c875"/>
+      <stop offset="1" stop-color="#40251f"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#1b1110" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <path d="M0 390 C180 330 330 358 520 315 C680 278 760 292 900 260 L900 560 L0 560 Z" fill="#5a342a"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="460" cy="338" rx="310" ry="162" fill="#fff7e8"/>
+    <ellipse cx="460" cy="338" rx="238" ry="116" fill="#eadbc7"/>
+    <path d="M260 330 C322 248 470 218 616 258 C706 283 752 336 714 393 C676 448 532 471 398 435 C300 409 226 375 260 330Z" fill="#d36a3b"/>
+    <path d="M300 330 C372 276 482 260 588 284 C658 300 688 334 664 367 C632 411 510 426 410 399 C338 380 276 362 300 330Z" fill="#f0b65f"/>
+    <path d="M360 312 C454 286 550 298 632 354" fill="none" stroke="#7a2f28" stroke-width="16" stroke-linecap="round" opacity=".55"/>
+    <g fill="#2f6d58">
+      <ellipse cx="330" cy="405" rx="40" ry="15" transform="rotate(-22 330 405)"/>
+      <ellipse cx="664" cy="292" rx="42" ry="16" transform="rotate(27 664 292)"/>
+      <ellipse cx="628" cy="420" rx="36" ry="14" transform="rotate(-14 628 420)"/>
+    </g>
+    <g fill="#f8dd8b">
+      <circle cx="390" cy="288" r="8"/>
+      <circle cx="502" cy="270" r="7"/>
+      <circle cx="584" cy="397" r="8"/>
+      <circle cx="420" cy="420" r="7"/>
+    </g>
+  </g>
+</svg>

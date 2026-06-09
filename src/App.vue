@@ -1,5 +1,11 @@
 <script setup>
 import heroImage from "./assets/restaurant-hero.svg";
+import fishImage from "./assets/dish-fish.svg";
+import burrataImage from "./assets/dish-burrata.svg";
+import soupImage from "./assets/dish-soup.svg";
+import souffleImage from "./assets/dish-souffle.svg";
+import steakImage from "./assets/dish-steak.svg";
+import tomatoBeefImage from "./assets/dish-tomato-beef.svg";
 
 const navItems = [
   { label: "菜单", href: "#menu" },
@@ -17,28 +23,50 @@ const menuItems = [
   {
     name: "桂花酒炭烤桂鱼",
     price: "¥128",
+    category: "江南炭火",
+    image: fishImage,
     description: "薄盐腌制后慢烤，鱼皮带一点焦香，配桂花米酒汁和小葱油。",
     featured: true,
   },
   {
     name: "青梅番茄布拉塔",
     price: "¥56",
+    category: "冷前菜",
+    image: burrataImage,
     description: "冷泡青梅汁、熟番茄和奶香布拉塔，酸甜轻盈。",
   },
   {
     name: "砂锅菌菇鸡汤",
     price: "¥78",
+    category: "暖汤",
+    image: soupImage,
     description: "云南菌菇、走地鸡和老姜慢煨，入口清亮，收尾回甘。",
   },
   {
     name: "黑芝麻舒芙蕾",
     price: "¥42",
+    category: "甜点",
+    image: souffleImage,
     description: "现烤 18 分钟，外层轻盈，内里是温热黑芝麻流心。",
+  },
+  {
+    name: "炭烤安格斯牛排",
+    price: "¥168",
+    category: "炭火主菜",
+    image: steakImage,
+    description: "厚切牛排炭火锁汁，配黑蒜黄油、烤小胡萝卜和海盐。",
+  },
+  {
+    name: "西红柿牛腩",
+    price: "¥88",
+    category: "经典热菜",
+    image: tomatoBeefImage,
+    description: "牛腩慢炖到软糯，番茄汤底酸甜浓郁，配土豆和香草。",
   },
 ];
 
 const stats = [
-  { value: "24", label: "个当季菜品" },
+  { value: "26", label: "个当季菜品" },
   { value: "3", label: "间包厢" },
   { value: "80", label: "个餐位" },
 ];
@@ -103,9 +131,17 @@ const stats = [
           class="menu-card"
           :class="{ featured: item.featured }"
         >
-          <span class="price">{{ item.price }}</span>
-          <h3>{{ item.name }}</h3>
-          <p>{{ item.description }}</p>
+          <div class="menu-photo">
+            <img :src="item.image" :alt="item.name" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-meta">
+              <span class="category">{{ item.category }}</span>
+              <span class="price">{{ item.price }}</span>
+            </div>
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+          </div>
         </article>
       </div>
     </section>

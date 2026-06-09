@@ -265,7 +265,7 @@ h2 {
 
 .menu-card {
   min-height: 248px;
-  padding: 28px;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fffdf8;
@@ -276,27 +276,57 @@ h2 {
   min-height: 514px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  background:
-    linear-gradient(0deg, rgba(89, 54, 75, 0.88), rgba(89, 54, 75, 0.36)),
-    url("./assets/restaurant-hero.svg") center / cover;
-  color: #fff;
+  background: #fffdf8;
 }
 
+.menu-photo {
+  height: 168px;
+  overflow: hidden;
+  background: var(--cream);
+}
+
+.featured .menu-photo {
+  height: 306px;
+}
+
+.menu-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-card-body {
+  padding: 24px 26px 28px;
+}
+
+.menu-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.category,
 .price {
   display: inline-flex;
-  align-self: flex-start;
-  margin-bottom: 18px;
+  align-items: center;
+  min-height: 30px;
   padding: 7px 12px;
   border-radius: 999px;
-  background: rgba(214, 160, 71, 0.2);
-  color: var(--terracotta);
+  font-size: 13px;
   font-weight: 800;
 }
 
-.featured .price {
-  background: rgba(255, 255, 255, 0.16);
-  color: #fff;
+.category {
+  background: rgba(46, 107, 93, 0.12);
+  color: var(--jade);
+}
+
+.price {
+  background: rgba(214, 160, 71, 0.2);
+  color: var(--terracotta);
 }
 
 .menu-card h3 {
@@ -308,10 +338,6 @@ h2 {
   margin-bottom: 0;
   color: var(--muted);
   line-height: 1.7;
-}
-
-.featured p {
-  color: rgba(255, 255, 255, 0.84);
 }
 
 .story-section {
@@ -407,6 +433,10 @@ h2 {
   .menu-card.featured {
     min-height: 360px;
   }
+
+  .featured .menu-photo {
+    height: 220px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -439,6 +469,20 @@ h2 {
 
   .menu-card {
     min-height: auto;
-    padding: 24px;
+  }
+
+  .menu-photo,
+  .featured .menu-photo {
+    height: 210px;
+  }
+
+  .menu-card-body {
+    padding: 22px;
+  }
+
+  .menu-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
   }
 }

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">黑芝麻舒芙蕾</title>
+  <desc id="desc">A black sesame souffle in a ramekin with sesame sauce and powdered sugar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7e7c4"/>
+      <stop offset="1" stop-color="#59364b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#20131a" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="450" cy="438" rx="234" ry="54" fill="#21171b" opacity=".26"/>
+    <path d="M285 300 H615 L580 438 C572 478 530 500 450 500 C370 500 328 478 320 438 Z" fill="#f6efe4"/>
+    <path d="M310 300 H590 L566 430 C560 458 524 474 450 474 C376 474 340 458 334 430 Z" fill="#d9c5aa"/>
+    <ellipse cx="450" cy="304" rx="165" ry="58" fill="#fff9ef"/>
+    <path d="M334 300 C342 182 548 178 566 300 C520 340 382 340 334 300Z" fill="#3d3333"/>
+    <path d="M378 258 C420 226 480 222 524 258" fill="none" stroke="#75635c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M408 320 C446 350 506 342 536 310" fill="none" stroke="#1f1718" stroke-width="20" stroke-linecap="round"/>
+    <g fill="#f8e8c8">
+      <circle cx="390" cy="226" r="5"/>
+      <circle cx="438" cy="210" r="4"/>
+      <circle cx="512" cy="232" r="5"/>
+      <circle cx="472" cy="272" r="4"/>
+      <circle cx="545" cy="288" r="4"/>
+    </g>
+  </g>
+</svg>
