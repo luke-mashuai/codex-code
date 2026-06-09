@@ -1,38 +1,39 @@
 # 拾味庭院
 
-一个单页静态餐厅官网示例，包含首屏展示、晚市菜单、餐厅故事和到店信息。
+一个基于 Vue 3 + Vite 的单页餐厅首页示例，包含首屏展示、晚市菜单、餐厅故事和到店信息。
 
 ## 项目结构
 
 ```text
 .
-├── assets/
-│   └── restaurant-hero.svg
+├── src/
+│   ├── assets/
+│   │   └── restaurant-hero.svg
+│   ├── App.vue
+│   ├── main.js
+│   └── styles.css
 ├── index.html
-├── styles.css
+├── package.json
 └── README.md
 ```
 
-## 本地预览
-
-这是纯静态网页，可以直接在浏览器中打开 `index.html`。
-
-也可以使用任意静态服务器预览，例如：
+## 本地开发
 
 ```bash
-python -m http.server 8000
+npm install
+npm run dev
 ```
 
-然后访问 `http://localhost:8000`。
+默认访问地址为 `http://127.0.0.1:5173`。
+
+## 构建
+
+```bash
+npm run build
+```
+
+构建产物会输出到 `dist/`。
 
 ## GitHub Pages 部署
 
-仓库已包含 GitHub Actions 配置。推送到 `main` 分支后，可在 GitHub 仓库的
-`Settings > Pages` 中选择 `GitHub Actions` 作为部署来源。
-
-## 适合扩展的方向
-
-- 接入真实订位系统或表单
-- 增加菜单 JSON 数据源
-- 添加移动端菜单导航
-- 替换为真实餐厅照片资源
+仓库已包含 GitHub Actions 配置。推送到 `main` 分支后，会自动安装依赖、构建 Vue 项目，并部署 `dist/`。

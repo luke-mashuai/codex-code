@@ -279,7 +279,7 @@ h2 {
   justify-content: end;
   background:
     linear-gradient(0deg, rgba(89, 54, 75, 0.88), rgba(89, 54, 75, 0.36)),
-    url("assets/restaurant-hero.svg") center / cover;
+    url("./assets/restaurant-hero.svg") center / cover;
   color: #fff;
 }
 

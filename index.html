@@ -1,127 +1,16 @@
 <!doctype html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="拾味庭院是一家主打当季食材、炭火风味与手作甜点的上海餐厅。"
     />
     <title>拾味庭院 | 当季餐厅</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="拾味庭院首页">
-        <span class="brand-mark">拾</span>
-        <span>拾味庭院</span>
-      </a>
-      <nav class="main-nav" aria-label="主导航">
-        <a href="#menu">菜单</a>
-        <a href="#story">风味</a>
-        <a href="#visit">到店</a>
-      </nav>
-      <a class="header-action" href="#reserve">订位</a>
-    </header>
-
-    <main id="top">
-      <section class="hero" aria-label="拾味庭院餐厅首屏">
-        <img
-          class="hero-image"
-          src="assets/restaurant-hero.svg"
-          alt="餐厅木桌上的烤鱼、蔬菜、陶瓷餐盘与温暖灯光"
-        />
-        <div class="hero-shade"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Seasonal Kitchen · Shanghai</p>
-          <h1>拾味庭院</h1>
-          <p class="hero-copy">
-            把江南时令、炭火香气和手作甜点放进一顿松弛的晚餐里。今晚有热汤，
-            也有刚出炉的面包。
-          </p>
-          <div class="hero-actions" id="reserve">
-            <a class="primary-button" href="tel:+862155560888">电话订位</a>
-            <a class="secondary-button" href="#menu">查看菜单</a>
-          </div>
-        </div>
-        <aside class="reservation-panel" aria-label="今日营业信息">
-          <span>今日</span>
-          <strong>17:30 - 22:30</strong>
-          <p>静安区梧桐路 118 号 · 晚市余位 6 桌</p>
-        </aside>
-      </section>
-
-      <section class="quick-info" aria-label="餐厅特色">
-        <div>
-          <span>人均</span>
-          <strong>¥168</strong>
-        </div>
-        <div>
-          <span>招牌</span>
-          <strong>炭烧桂鱼</strong>
-        </div>
-        <div>
-          <span>适合</span>
-          <strong>约会 · 小聚 · 家宴</strong>
-        </div>
-      </section>
-
-      <section class="section menu-section" id="menu">
-        <div class="section-heading">
-          <p class="eyebrow">Tonight's Table</p>
-          <h2>晚市推荐</h2>
-        </div>
-        <div class="menu-grid">
-          <article class="menu-card featured">
-            <span class="price">¥128</span>
-            <h3>桂花酒炭烤桂鱼</h3>
-            <p>薄盐腌制后慢烤，鱼皮带一点焦香，配桂花米酒汁和小葱油。</p>
-          </article>
-          <article class="menu-card">
-            <span class="price">¥56</span>
-            <h3>青梅番茄布拉塔</h3>
-            <p>冷泡青梅汁、熟番茄和奶香布拉塔，酸甜轻盈。</p>
-          </article>
-          <article class="menu-card">
-            <span class="price">¥78</span>
-            <h3>砂锅菌菇鸡汤</h3>
-            <p>云南菌菇、走地鸡和老姜慢煨，入口清亮，收尾回甘。</p>
-          </article>
-          <article class="menu-card">
-            <span class="price">¥42</span>
-            <h3>黑芝麻舒芙蕾</h3>
-            <p>现烤 18 分钟，外层轻盈，里面是温热黑芝麻流心。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section story-section" id="story">
-        <div class="story-copy">
-          <p class="eyebrow">From Market To Fire</p>
-          <h2>让食材先说话</h2>
-          <p>
-            我们每天从附近菜场和稳定小农处挑选蔬果、鱼鲜与香草。厨房保留中式火候，
-            也借一点开放式餐厨的轻松节奏：看得见的炭火、闻得到的高汤、每桌都刚好热闹。
-          </p>
-        </div>
-        <div class="story-stats" aria-label="餐厅数据">
-          <div><strong>24</strong><span>个当季菜品</span></div>
-          <div><strong>3</strong><span>间包厢</span></div>
-          <div><strong>80</strong><span>个餐位</span></div>
-        </div>
-      </section>
-
-      <section class="section visit-section" id="visit">
-        <div>
-          <p class="eyebrow">Visit Us</p>
-          <h2>今晚来坐坐</h2>
-        </div>
-        <div class="visit-details">
-          <p><strong>地址</strong> 上海市静安区梧桐路 118 号</p>
-          <p><strong>营业</strong> 周二至周日 11:30 - 14:00 / 17:30 - 22:30</p>
-          <p><strong>电话</strong> <a href="tel:+862155560888">021-5556-0888</a></p>
-        </div>
-      </section>
-    </main>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

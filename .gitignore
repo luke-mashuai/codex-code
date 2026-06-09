@@ -11,6 +11,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Dependencies
+node_modules/
+
 # Local environment files
 .env
 .env.*
